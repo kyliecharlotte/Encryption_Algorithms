@@ -14,7 +14,7 @@ Encryption and decryption algorithms are a cornerstone of cybersecurity, even as
 
 To run any of these with a specified file:
 
-./cipher -m (letter code) -i (input file) -o (name of output file)
+### ./cipher -m (letter code) -i (input file) -o (name of output file)
 
 Letter Code: s: Substitution
     c: Caesar
@@ -22,9 +22,9 @@ Letter Code: s: Substitution
     k: Running Key
     v: Vigenere
 
-ex:./cipher -m s -i test1/subs/substitution.txt -o output.txt 
+### ex:./cipher -m s -i test1/subs/substitution.txt -o output.txt 
 
-The input file can be one found in test{1,2,3}, or another one added to the folder. The output file can exist or be the name of a file you wish to create with the results.
+The input file can be one found in folders test{1,2,3} or an added file. The output file can exist or be the name of a file you wish to create with the results.
 
 
 
